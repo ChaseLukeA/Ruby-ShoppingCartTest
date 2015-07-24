@@ -1,10 +1,9 @@
-class InvalidDataTypeForPriceError < StandardError
-  def to_s
-    "The price must be a number."
-  end
-end
+# exceptions.rb
+# By Luke A Chase
+# chase.luke.a@gmail.com
+# Copyright 2015
 
-class InvalidDataTypeForCart < StandardError
+class InvalidDataTypeForCartError < StandardError
   def to_s
     "Only valid items may be added to the cart."
   end
